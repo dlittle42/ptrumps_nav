@@ -26,8 +26,7 @@ var _demo = (function(){
         },
         catch_resize: function(){
             jQuery(window).on('resize, scroll', function(){
-                console.log(window.innerHeight);
-                jQuery('#feed_btn_main').text(window.innerHeight);
+            
                 if (jQuery('.moveNavMenu').hasClass('moveNavMenuActive')){
                     jQuery('.moreNavItems').css({
                         'height': window.innerHeight - jQuery('.mainNavBar').height() - jQuery('.linkOut').height()
@@ -209,6 +208,19 @@ var _demo = (function(){
     return method;
 })();
 
+function animate() {
+
+    requestAnimationFrame( animate );
+    console.log(window.innerHeight);
+    jQuery('#feed_btn_main').text(window.innerHeight);
+
+}
+
+
 jQuery(document).ready(function() {
     _demo.init();  
+    animate();
+
+
+
 });
