@@ -134,11 +134,12 @@ header.bar-up{
 .pf a, .pf a:active, .pf a:visited, .pf a:hover {
 	color:#fee964;
 	text-decoration: none;
-	padding-left: 20px;
+	/*padding-left: 20px;
 	background-image: url('icons/pfc_Clean-Logo@2x.png');
 	background-size: 20px 20px;
 	background-position: left middle;
 	background-repeat: no-repeat;
+	*/
 	font-size: 1.2em;
 	text-transform: uppercase;
 }
