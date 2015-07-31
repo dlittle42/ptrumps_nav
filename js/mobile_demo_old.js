@@ -1,3 +1,5 @@
+var initHeight;
+
 var _demo = (function(){
     var _current_feed = 0, _current_section = null, _dir, method = {
         init: function(){
@@ -213,12 +215,20 @@ function animate() {
     requestAnimationFrame( animate );
     console.log(window.innerHeight);
     jQuery('#feed_btn_main').text(window.innerHeight);
+    console.log(initHeight);
+    if (window.innerHeight > initHeight){
+        jQuery('header').removeClass('bar-up');
+    }else{
+        jQuery('header').addClass('bar-up');
+    }
 
 }
 
 
 jQuery(document).ready(function() {
     _demo.init();  
+    initHeight = window.innerHeight;
+    jQuery('header').addClass('bar-up');
     animate();
 
 
