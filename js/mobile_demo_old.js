@@ -228,6 +228,7 @@ function animate() {
 jQuery(document).ready(function() {
     _demo.init();  
     initHeight = window.innerHeight;
+    alert(initHeight);
     jQuery('header').addClass('bar-up');
     animate();
 
