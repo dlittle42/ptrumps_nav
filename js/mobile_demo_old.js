@@ -216,11 +216,13 @@ function animate() {
     console.log(window.innerHeight);
     jQuery('#feed_btn_main').text(window.innerHeight);
     console.log(initHeight);
+    /*
     if (window.innerHeight > initHeight){
         jQuery('header').removeClass('bar-up');
     }else{
         jQuery('header').addClass('bar-up');
     }
+    */
 
 }
 
