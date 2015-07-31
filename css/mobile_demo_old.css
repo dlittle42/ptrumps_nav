@@ -81,7 +81,8 @@ header {
 	bottom: 0;
 	left: 0;
 	z-index: 9999 !important;
-	-webkit-transition: all 500ms ease-out;
+	-webkit-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
 }
 
 header.bar-up{
