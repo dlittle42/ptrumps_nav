@@ -215,7 +215,7 @@ function animate() {
     requestAnimationFrame( animate );
     console.log(window.innerHeight);
     jQuery('#feed_btn_main').text(window.innerHeight);
-    console.log(initHeight);
+   // console.log(initHeight);
     if (window.innerHeight > initHeight){
         jQuery('header').removeClass('bar-up');
     }else{
@@ -228,6 +228,7 @@ function animate() {
 jQuery(document).ready(function() {
     _demo.init();  
     initHeight = window.innerHeight;
+    alert(initHeight);
     jQuery('header').addClass('bar-up');
     animate();
 

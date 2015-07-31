@@ -81,7 +81,8 @@ header {
 	bottom: 0;
 	left: 0;
 	z-index: 9999 !important;
-	-webkit-transition: all 500ms ease-out;
+	-webkit-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
 }
 
 header.bar-up{
@@ -91,8 +92,8 @@ header.bar-up{
 .mainNavBar {
 	position: absolute;
 	width: 100%;
-	height: 5.6em;
-	top: 0;
+	height: 50px;
+	top: 10px;
 	left: 0;
 	z-index: 99;
 }
@@ -187,12 +188,12 @@ header.bar-up{
 
 .mainNavBtn #menu_feed .mainNavBtnInner {
 	background-image: url('icons/menu/feed_grey@2x.png');
-	background-size: 3.7em 3.7em;
+	background-size: 25px 25px;
 }
 
 .mainNavBtn #menu_notifications .mainNavBtnInner {
 	background-image: url('icons/menu/notifications_circle_grey@2x.png');
-	background-size: 3.6em 3.8em;
+	background-size: 25px 25px;
 }
 
 .mainNavBtn #menu_new-post .mainNavBtnInner {
@@ -202,32 +203,32 @@ header.bar-up{
 
 .mainNavBtn #menu_search .mainNavBtnInner {
 	background-image: url('icons/menu/search_grey@2x.png');
-	background-size: 3.5em 3.5em;
+	background-size: 25px 25px;
 }
 
 .mainNavBtn #menu_more .mainNavBtnInner {
 	background-image: url('icons/menu/menu_grey@2x.png');
-	background-size: 3.2em 2.4em;
+	background-size: 25px 25px;
 }
 
 .mainNavBtnActive #menu_feed .mainNavBtnInner {
 	background-image: url('icons/menu/feed_white@2x.png');
-	background-size: 3.7em 3.7em;
+	background-size: 25px 25px;
 }
 
 .mainNavBtnActive #menu_notifications .mainNavBtnInner {
 	background-image: url('icons/menu/notifications_circle_white@2x.png');
-	background-size: 3.6em 3.8em;
+	background-size: 25px 25px;
 }
 
 .mainNavBtnActive #menu_search .mainNavBtnInner {
 	background-image: url('icons/menu/search_white@2x.png');
-	background-size: 3.5em 3.5em;
+	background-size: 25px 25px;
 }
 
 .mainNavBtnActive #menu_more .mainNavBtnInner {
 	background-image: url('icons/menu/menu_white@2x.png');
-	background-size: 3.2em 2.4em;
+	background-size: 25px 25px;
 }
 
 .notificationIcon {
