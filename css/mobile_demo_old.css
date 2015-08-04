@@ -86,7 +86,7 @@ header {
 }
 
 header.bar-up{
-	  -webkit-transform: translateY(30px);
+	  -webkit-transform: translateY(80px);
 }
 
 .mainNavBar {
